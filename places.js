@@ -8,8 +8,8 @@ function staticLoadPlaces() {
        {
            name: 'asset',
            location: {
-               lat: 10.243824601912154,
-               lng: -68.01064217093881,
+               lat: 10.243826,
+               lng: -68.010650,
            }
        },
 
@@ -27,7 +27,7 @@ function renderPlaces(places) {
        let model = document.createElement('a-entity');
        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
        model.setAttribute('gltf-model', 'assets/asset.gltf');
-       model.setAttribute('rotation', '0 180 0');
+       model.setAttribute('rotation', '0 270 0');
        model.setAttribute("position", "4 0.1 0");
        model.setAttribute('animation-mixer', '');
        model.setAttribute('scale', '4 4 4');
