@@ -8,7 +8,7 @@ function staticLoadPlaces() {
        {
            name: 'asset',
            location: {
-               lat: 10.24367679,
+               lat: 10.24367678,
                lng: -68.0106153,
            }
        },
